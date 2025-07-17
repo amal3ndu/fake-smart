@@ -4,7 +4,7 @@ title: "fake smart"
 description: "This blog is about artificial intelligence, a.k.a Fake Smarts"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /fake-smart
+baseurl: ""
 include: ["_pages"]
 permalink: /:title/
 
