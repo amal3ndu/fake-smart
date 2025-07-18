@@ -5,6 +5,7 @@ description: "This blog is about artificial intelligence, a.k.a Fake Smarts"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
+google_analytics: 'G-NLKJN5VHMC'
 include: ["_pages"]
 permalink: /:title/
 
@@ -13,8 +14,9 @@ authors:
   amalendu:
     name: Amalendu 
     display_name: MLendu
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: amalendubokil@gmail.com
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    description: "Hello World! My name is Amalendu"
 
 # Plugins
 plugins:
