@@ -1,6 +1,8 @@
 # Site
 name: "Fake Smart"
 title: "fake smart"
+baseurl: "/fake-smart"
+url: "https://amal3ndu.github.io"
 description: "This blog is about artificial intelligence, a.k.a Fake Smarts"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
