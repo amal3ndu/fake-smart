@@ -3,7 +3,7 @@ name: "Fake Smart"
 title: "fake smart"
 baseurl: "/fake-smart"
 url: "https://amal3ndu.github.io"
-description: "This blog is for the (artificially) intelligent"
+description: "A blog for the (artificially) intelligent"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 include: ["_pages"]

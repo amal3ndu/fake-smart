@@ -1,0 +1,81 @@
+/* Dark mode overrides */ 
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode a {
+    color: #80cbc4;
+}
+
+body.dark-mode a:hover {
+    color: #e0e0e0;
+}
+
+body.dark-mode .mediumnavigation {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .article-post {
+    color: #fff;
+}
+
+body.dark-mode .footer {
+    background: #181818;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+body.dark-mode .card,
+body.dark-mode .card-footer {
+    background: #1e1e1e;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .section-title h2,
+body.dark-mode .section-title span {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .navbar-expand-lg .navbar-nav .nav-link {
+  color: #f0f0f0;
+}
+
+/* Make post text white in dark mode */
+body.dark-mode .article-post {
+  color: #f0f0f0;
+}
+
+body.dark-mode .listfeaturedtag h4.card-text,
+body.dark-mode .listrecent h4.card-text {
+    color: rgba(255, 255, 255, .44);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+body.dark-mode span.post-date,
+body.dark-mode span.post-read {
+    color: rgba(255, 255, 255, .44);
+}
+
+/* Forms and inputs */
+body.dark-mode input,
+body.dark-mode textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+body.dark-mode input::placeholder {
+    color: #aaa;
+}
+
+
+/* Jumbotron for Tags*/
+body.dark-mode .jumbotron.fortags {
+    background-image: url(../images/jumbotron-dark.jpg);
+}  

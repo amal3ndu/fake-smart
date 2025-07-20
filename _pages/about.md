@@ -8,7 +8,6 @@ permalink: /about
 <div class="col-md-8 pr-5">
 
 <p>Fake Smart is an educational resource to learn more about the history and math behind technology we use everyday. The goal is to simplify and demystify the math behind the things that seem artificially intelligent, aka "fake smart".</p>
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 
 </div>
 </div>
