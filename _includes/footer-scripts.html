@@ -2,9 +2,10 @@
 document.addEventListener("DOMContentLoaded", function () {
     const toggle = document.getElementById("darkModeToggle");
     const body = document.body;
+    const logo = document.getElementById("logo");
 
     const userPrefersDark = localStorage.getItem("dark-mode") === true;
-    
+
     if (localStorage.getItem("dark-mode") === "true") {
         body.classList.add("dark-mode");
         toggle.checked = true;
@@ -12,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     toggle.addEventListener("click", function () {
         body.classList.toggle("dark-mode");
-        localStorage.setItem("dark-mode", body.classList.contains("dark-mode"));
+        isDark = body.classList.contains("dark-mode");
+        localStorage.setItem("dark-mode", isDark);
     });
 });
 </script>
